@@ -1,0 +1,42 @@
+@font-face {
+            font-family: 'amaranthbold';
+            src: url('../fonts/amaranth-regular-webfont.woff2') format('woff2'),
+                 url('../fonts/amaranth-regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+         }
+    body{
+        box-sizing: border-box;
+        font-family: 'amaranthbold';
+        font-size: 18px;
+        padding-top: 1%;
+    }
+    /* passage styling */
+    /* .content{
+        border: 2px solid yellow;
+    } */
+
+    /* PREVIUOS AND NEXT BUTTON STYLING */
+    
+    .previous, .next, .submit{
+        text-decoration: none;
+        
+        padding: 3px 8px;
+        /* position: relative; */
+        margin-top: 4%;
+        display: none;
+      }
+      
+      .previous:hover, .next:hover {
+        background-color: #4CAF50;
+        color: white;
+        
+      }
+      
+      .previous, .next{
+        background-color: #ddd;
+        color: black;
+      }
+      
+      
+      
